@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/peso_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/peso" />
+
+        <EditText
+            android:id="@+id/peso_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/dolar_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dolar" />
+
+        <EditText
+            android:id="@+id/dolar_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/peso_to_dolar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="PesotoDolar"
+            android:text="@string/peso_a_dolar" />
+
+        <Button
+            android:id="@+id/dolar_to_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="DolartoPeso"
+            android:text="@string/dolar_a_peso" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Logout"
+            android:text="@string/logout" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

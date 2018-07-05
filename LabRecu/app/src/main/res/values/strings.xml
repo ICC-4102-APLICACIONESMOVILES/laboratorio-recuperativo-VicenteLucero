@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LabRecu</string>
+    <string name="rut">Rut</string>
+    <string name="clave">Clave</string>
+    <string name="login">Login</string>
+    <string name="peso">Peso</string>
+    <string name="dolar">Dolar</string>
+    <string name="peso_a_dolar">Peso a Dolar</string>
+    <string name="dolar_a_peso">Dolar a Peso</string>
+    <string name="logout">Logout</string>
+</resources>
