@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             peso_val = Float.parseFloat(pes);
-            dolar_val = peso_val*680;
+            dolar_val = peso_val/680;
             dolars.setText(String.valueOf(dolar_val));
         }
 
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             dolar_val = Float.parseFloat(dol);
-            peso_val = dolar_val/680;
+            peso_val = dolar_val*680;
             pesos.setText(String.valueOf(peso_val));
         }
 
